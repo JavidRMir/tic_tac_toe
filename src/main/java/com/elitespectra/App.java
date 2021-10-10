@@ -19,11 +19,11 @@ public class App {
             if (i % 2 == 0) {
                 System.out.print("Player X choose spot: ");
                 spot = spotInput.nextInt();
-                ticTacToe.play("X", spot);
+                ticTacToe.play(Player.X, spot);
             } else {
                 System.out.print("Player O choose spot: ");
                 spot = spotInput.nextInt();
-                ticTacToe.play("O", spot);
+                ticTacToe.play(Player.O, spot);
             }
         }
 
